@@ -1,0 +1,81 @@
+{
+  "appPolicies" : {
+    "eula" : "",
+    "policies" : [
+      {
+        "locale" : "en_US",
+        "policyText" : "",
+        "policyURL" : ""
+      }
+    ]
+  },
+  "identifier" : "7F830CD9",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+
+  ],
+  "settings" : {
+    "_askToBuyEnabled" : false,
+    "_billingGracePeriodEnabled" : false,
+    "_billingIssuesEnabled" : false,
+    "_disableDialogs" : false,
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
+    "_renewalBillingIssuesEnabled" : false,
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+
+    ],
+    "_timeRate" : 0
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "AI-PHOTO-PRO-GROUP",
+      "localizations" : [
+        {
+          "customAppName" : "AI Photo",
+          "description" : "Unlimited access to AI photo and AI video generation.",
+          "displayName" : "AI Photo Pro",
+          "locale" : "en_US"
+        }
+      ],
+      "name" : "AI Photo Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "9.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "AI-PHOTO-PRO-MONTHLY-001",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Unlimited AI photo and video generation with premium styles and high-quality exports.",
+              "displayName" : "AI Photo Pro Monthly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "aiphoto.premium",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "AI Photo Pro Monthly",
+          "subscriptionGroupID" : "AI-PHOTO-PRO-GROUP",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 5,
+    "minor" : 0
+  }
+}

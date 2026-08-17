@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		010000000000000000000001 /* AIPhotoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000101 /* AIPhotoApp.swift */; };
+		010000000000000000000002 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000102 /* RootView.swift */; };
+		010000000000000000000003 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000103 /* OnboardingView.swift */; };
+		010000000000000000000004 /* OnboardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000104 /* OnboardingPage.swift */; };
+		010000000000000000000005 /* AITheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000105 /* AITheme.swift */; };
+		010000000000000000000006 /* DesignCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000106 /* DesignCanvas.swift */; };
+		010000000000000000000007 /* PrimaryGradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000107 /* PrimaryGradientButton.swift */; };
+		010000000000000000000008 /* PageDots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000108 /* PageDots.swift */; };
+		010000000000000000000009 /* StatusBarReplica.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000109 /* StatusBarReplica.swift */; };
+		010000000000000000000010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000110 /* Assets.xcassets */; };
+		010000000000000000000011 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000111 /* LoadingView.swift */; };
+		010000000000000000000012 /* AIHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000112 /* AIHomeView.swift */; };
+		010000000000000000000013 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000113 /* PaywallView.swift */; };
+		010000000000000000000015 /* AppChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000115 /* AppChrome.swift */; };
+		010000000000000000000016 /* MainAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000116 /* MainAppView.swift */; };
+		010000000000000000000017 /* TabScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000117 /* TabScreens.swift */; };
+		010000000000000000000018 /* AppLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000118 /* AppLinks.swift */; };
+		010000000000000000000019 /* StoreKitPurchaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000119 /* StoreKitPurchaseManager.swift */; };
+		010000000000000000000021 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000120 /* LaunchScreen.storyboard */; };
+		010000000000000000000022 /* PhotoCreatorFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000121 /* PhotoCreatorFlowView.swift */; };
+		010000000000000000000023 /* MediaGenerationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000122 /* MediaGenerationStore.swift */; };
+		010000000000000000000024 /* PhotoLibraryViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000123 /* PhotoLibraryViews.swift */; };
+		010000000000000000000025 /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000124 /* AppConfiguration.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		010000000000000000000020 /* AIPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		010000000000000000000101 /* AIPhotoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIPhotoApp.swift; sourceTree = "<group>"; };
+		010000000000000000000102 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		010000000000000000000103 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		010000000000000000000104 /* OnboardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPage.swift; sourceTree = "<group>"; };
+		010000000000000000000105 /* AITheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AITheme.swift; sourceTree = "<group>"; };
+		010000000000000000000106 /* DesignCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCanvas.swift; sourceTree = "<group>"; };
+		010000000000000000000107 /* PrimaryGradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryGradientButton.swift; sourceTree = "<group>"; };
+		010000000000000000000108 /* PageDots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageDots.swift; sourceTree = "<group>"; };
+		010000000000000000000109 /* StatusBarReplica.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarReplica.swift; sourceTree = "<group>"; };
+		010000000000000000000110 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		010000000000000000000111 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		010000000000000000000112 /* AIHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIHomeView.swift; sourceTree = "<group>"; };
+		010000000000000000000113 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		010000000000000000000115 /* AppChrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppChrome.swift; sourceTree = "<group>"; };
+		010000000000000000000116 /* MainAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAppView.swift; sourceTree = "<group>"; };
+		010000000000000000000117 /* TabScreens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabScreens.swift; sourceTree = "<group>"; };
+		010000000000000000000118 /* AppLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLinks.swift; sourceTree = "<group>"; };
+		010000000000000000000119 /* StoreKitPurchaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKitPurchaseManager.swift; sourceTree = "<group>"; };
+		010000000000000000000120 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		010000000000000000000121 /* PhotoCreatorFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCreatorFlowView.swift; sourceTree = "<group>"; };
+		010000000000000000000122 /* MediaGenerationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaGenerationStore.swift; sourceTree = "<group>"; };
+		010000000000000000000123 /* PhotoLibraryViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibraryViews.swift; sourceTree = "<group>"; };
+		010000000000000000000124 /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
+		9CF381153007FE130039EC12 /* AIPhoto.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = AIPhoto.storekit; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		010000000000000000000030 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		010000000000000000000040 = {
+			isa = PBXGroup;
+			children = (
+				010000000000000000000050 /* AIPhoto */,
+				010000000000000000000060 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		010000000000000000000050 /* AIPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				010000000000000000000101 /* AIPhotoApp.swift */,
+				010000000000000000000120 /* LaunchScreen.storyboard */,
+				010000000000000000000051 /* Views */,
+				010000000000000000000052 /* Components */,
+				010000000000000000000053 /* Assets */,
+				010000000000000000000054 /* Models */,
+				010000000000000000000055 /* Helpers */,
+				010000000000000000000065 /* Services */,
+				010000000000000000000068 /* Configuration */,
+				010000000000000000000057 /* Theme */,
+			);
+			path = AIPhoto;
+			sourceTree = "<group>";
+		};
+		010000000000000000000051 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				010000000000000000000058 /* Root */,
+				010000000000000000000064 /* Main */,
+				010000000000000000000061 /* Loading */,
+				010000000000000000000059 /* Onboarding */,
+				010000000000000000000062 /* Home */,
+				010000000000000000000063 /* Paywall */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		010000000000000000000052 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				010000000000000000000115 /* AppChrome.swift */,
+				010000000000000000000107 /* PrimaryGradientButton.swift */,
+				010000000000000000000108 /* PageDots.swift */,
+				010000000000000000000109 /* StatusBarReplica.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		010000000000000000000053 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				010000000000000000000110 /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		010000000000000000000054 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				010000000000000000000104 /* OnboardingPage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		010000000000000000000055 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				010000000000000000000118 /* AppLinks.swift */,
+				010000000000000000000106 /* DesignCanvas.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		010000000000000000000057 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				010000000000000000000105 /* AITheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		010000000000000000000058 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				010000000000000000000102 /* RootView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		010000000000000000000059 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				010000000000000000000103 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		010000000000000000000060 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				010000000000000000000020 /* AIPhoto.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		010000000000000000000061 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				010000000000000000000111 /* LoadingView.swift */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+		010000000000000000000062 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				010000000000000000000112 /* AIHomeView.swift */,
+				010000000000000000000121 /* PhotoCreatorFlowView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		010000000000000000000063 /* Paywall */ = {
+			isa = PBXGroup;
+			children = (
+				010000000000000000000113 /* PaywallView.swift */,
+			);
+			path = Paywall;
+			sourceTree = "<group>";
+		};
+		010000000000000000000064 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				010000000000000000000116 /* MainAppView.swift */,
+				010000000000000000000123 /* PhotoLibraryViews.swift */,
+				010000000000000000000117 /* TabScreens.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		010000000000000000000065 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				010000000000000000000066 /* Generation */,
+				010000000000000000000067 /* Purchases */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		010000000000000000000066 /* Generation */ = {
+			isa = PBXGroup;
+			children = (
+				010000000000000000000122 /* MediaGenerationStore.swift */,
+			);
+			path = Generation;
+			sourceTree = "<group>";
+		};
+		010000000000000000000067 /* Purchases */ = {
+			isa = PBXGroup;
+			children = (
+				010000000000000000000119 /* StoreKitPurchaseManager.swift */,
+			);
+			path = Purchases;
+			sourceTree = "<group>";
+		};
+		010000000000000000000068 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				010000000000000000000124 /* AppConfiguration.swift */,
+				010000000000000000000069 /* StoreKit */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		010000000000000000000069 /* StoreKit */ = {
+			isa = PBXGroup;
+			children = (
+				9CF381153007FE130039EC12 /* AIPhoto.storekit */,
+			);
+			path = StoreKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		010000000000000000000070 /* AIPhoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 010000000000000000000090 /* Build configuration list for PBXNativeTarget "AIPhoto" */;
+			buildPhases = (
+				010000000000000000000080 /* Sources */,
+				010000000000000000000030 /* Frameworks */,
+				010000000000000000000081 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AIPhoto;
+			productName = AIPhoto;
+			productReference = 010000000000000000000020 /* AIPhoto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		010000000000000000000071 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					010000000000000000000070 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 010000000000000000000091 /* Build configuration list for PBXProject "AIPhoto" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 010000000000000000000040;
+			productRefGroup = 010000000000000000000060 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				010000000000000000000070 /* AIPhoto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		010000000000000000000081 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				010000000000000000000010 /* Assets.xcassets in Resources */,
+				010000000000000000000021 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		010000000000000000000080 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				010000000000000000000001 /* AIPhotoApp.swift in Sources */,
+				010000000000000000000002 /* RootView.swift in Sources */,
+				010000000000000000000003 /* OnboardingView.swift in Sources */,
+				010000000000000000000004 /* OnboardingPage.swift in Sources */,
+				010000000000000000000005 /* AITheme.swift in Sources */,
+				010000000000000000000006 /* DesignCanvas.swift in Sources */,
+				010000000000000000000007 /* PrimaryGradientButton.swift in Sources */,
+				010000000000000000000008 /* PageDots.swift in Sources */,
+				010000000000000000000009 /* StatusBarReplica.swift in Sources */,
+				010000000000000000000011 /* LoadingView.swift in Sources */,
+				010000000000000000000012 /* AIHomeView.swift in Sources */,
+				010000000000000000000013 /* PaywallView.swift in Sources */,
+				010000000000000000000015 /* AppChrome.swift in Sources */,
+				010000000000000000000016 /* MainAppView.swift in Sources */,
+				010000000000000000000017 /* TabScreens.swift in Sources */,
+				010000000000000000000018 /* AppLinks.swift in Sources */,
+				010000000000000000000019 /* StoreKitPurchaseManager.swift in Sources */,
+				010000000000000000000022 /* PhotoCreatorFlowView.swift in Sources */,
+				010000000000000000000023 /* MediaGenerationStore.swift in Sources */,
+				010000000000000000000024 /* PhotoLibraryViews.swift in Sources */,
+				010000000000000000000025 /* AppConfiguration.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		010000000000000000000092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		010000000000000000000093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		010000000000000000000094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pix Video";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow AI Photo to take a photo for your creation.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Allow AI Photo to save generated images to your photo library.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UIViewControllerBasedStatusBarAppearance = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pixvideo.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		010000000000000000000095 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pix Video";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow AI Photo to take a photo for your creation.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Allow AI Photo to save generated images to your photo library.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UIViewControllerBasedStatusBarAppearance = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pixvideo.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		010000000000000000000090 /* Build configuration list for PBXNativeTarget "AIPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				010000000000000000000094 /* Debug */,
+				010000000000000000000095 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		010000000000000000000091 /* Build configuration list for PBXProject "AIPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				010000000000000000000092 /* Debug */,
+				010000000000000000000093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 010000000000000000000071 /* Project object */;
+}
