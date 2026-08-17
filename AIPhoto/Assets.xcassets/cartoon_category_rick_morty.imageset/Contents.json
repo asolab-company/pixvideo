@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "cartoon_category_rick_morty.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

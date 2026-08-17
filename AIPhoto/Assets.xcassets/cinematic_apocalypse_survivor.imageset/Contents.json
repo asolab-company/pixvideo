@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "cinematic_apocalypse_survivor.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
