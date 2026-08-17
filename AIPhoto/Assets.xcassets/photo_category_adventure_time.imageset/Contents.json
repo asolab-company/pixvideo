@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "photo_category_adventure_time.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
