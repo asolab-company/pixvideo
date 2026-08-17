@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "around_world_tokyo_nights.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
