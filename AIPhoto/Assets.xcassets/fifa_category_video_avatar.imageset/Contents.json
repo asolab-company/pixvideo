@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "fifa_category_video_avatar.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
